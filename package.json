@@ -1,0 +1,20 @@
+{
+  "name": "shedesnails",
+  "version": "1.0.0",
+  "description": "Make a website for a nail shop, allowing user to make appointments and check service details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowfre4k/sheDesNails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowfre4k/sheDesNails/issues"
+  },
+  "homepage": "https://github.com/shadowfre4k/sheDesNails#readme"
+}
