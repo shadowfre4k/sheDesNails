@@ -1,11 +1,16 @@
+import "./Navbar.css";
+
 const Navbar = () => {
   return (
     <>
-      <div>
-        <h1>Hello</h1>
-      </div>
-      <div>
-        <h1>World</h1>
+      <div className="navContainer">
+        <ul className="linkContainer">
+          <p className="linkItem">About</p>
+          <p className="linkItem">Policies</p>
+          <p className="linkItem">Book</p>
+        </ul>
+        <div className="brandContainer">She Des Nails</div>
+        <div className="iconContainer">Placeholder Icon</div>
       </div>
     </>
   );
