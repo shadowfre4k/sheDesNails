@@ -2,7 +2,8 @@
   --primaryColor: #f0ece9;
   --secondaryColor: #8c747c;
 }
-
+* {
+}
 .navContainer {
   display: flex;
   justify-content: space-evenly;
@@ -17,7 +18,7 @@
 .linkContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 30%;
+  width: 20%;
 }
 
 .linkItem {
@@ -26,8 +27,9 @@
 
 .brandContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 40%;
+  font-size: 1.5rem;
 }
 
 .iconContainer {
