@@ -8,3 +8,8 @@
   width: 100vw;
   height: 60vh;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
