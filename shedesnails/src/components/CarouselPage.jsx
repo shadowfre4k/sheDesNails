@@ -1,21 +1,21 @@
-import "./CarouselPage.css";
-import Carousel from "react-bootstrap/Carousel";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import Test from "../assets/react.svg";
-
-const CarouselPage = () => {
+import "./CarouselPage.css";
+function CarouselPage() {
   return (
-    <>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className=" resize d-flex justify-content-center align-items-center"
-            src={Test}
-            alt="First image"
-          />
-        </Carousel.Item>
-      </Carousel>
-    </>
+    <Splide className="carousel">
+      <SplideSlide>
+        <img src={Test} alt="Image 1" />
+      </SplideSlide>
+      <SplideSlide>
+        <img src={Test} alt="Image 1" />
+      </SplideSlide>
+      <SplideSlide>
+        <img src={Test} alt="Image 1" />
+      </SplideSlide>
+    </Splide>
   );
-};
+}
 
 export default CarouselPage;
