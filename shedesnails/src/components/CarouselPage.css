@@ -1,15 +1,38 @@
+:root {
+  --primaryColor: #f0ece9;
+  --secondaryColor: #8c747c;
+}
+
+button {
+  margin: 2%;
+  width: 5vw;
+}
+.splide__slide img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primaryColor);
+}
 .carousel {
   text-decoration: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   list-style-type: none;
 
-  width: 100vw;
-  height: 60vh;
+  width: 50%;
+  height: auto;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
+  background-color: var(--primaryColor);
 }
