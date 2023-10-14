@@ -28,10 +28,6 @@ function CarouselPage() {
           </SplideSlide>
         </Splide>
       </div>
-      <div className="buttons">
-        <button>button 1</button>
-        <button>button 2</button>
-      </div>
     </div>
   );
 }

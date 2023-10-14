@@ -1,0 +1,23 @@
+button {
+  width: 15vw;
+  height: 2.5vh;
+}
+p {
+  width: 60%;
+}
+
+.bioContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--primaryColor);
+  width: 100vw;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primaryColor);
+  width: 100%;
+}

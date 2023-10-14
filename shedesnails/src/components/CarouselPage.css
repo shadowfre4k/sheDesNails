@@ -1,6 +1,7 @@
 :root {
   --primaryColor: #f0ece9;
-  --secondaryColor: #8c747c;
+  --secondaryColor: #e3dce1;
+  --tertiaryColor: #8c747c;
 }
 
 button {
@@ -17,7 +18,7 @@ button {
 .carouselContainer {
   display: flex;
   justify-content: center;
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
 }
 .carousel {
   text-decoration: none;
@@ -29,10 +30,4 @@ button {
 
   width: 50%;
   height: auto;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  background-color: var(--primaryColor);
 }
