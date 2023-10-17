@@ -11,7 +11,6 @@ const Navbar = () => {
             <p className="linkItem">Book</p>
           </ul>
           <div className="brandContainer">She Des Nails</div>
-          <div className="iconContainer">Placeholder Icon</div>
         </div>
       </div>
     </>

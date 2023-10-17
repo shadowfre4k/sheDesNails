@@ -1,7 +1,9 @@
 :root {
-  --primaryColor: #f0ece9;
-  --secondaryColor: #e3dce1;
-  --tertiaryColor: #8c747c;
+  --primaryColor: #ffffff;
+  --secondaryColor: #e0d3d3;
+  --tertiaryColor: #8d7575;
+  --fourColor: #997d7d;
+  --fiveColor: #faf0f0;
 }
 
 button {
@@ -9,7 +11,7 @@ button {
   width: 5vw;
 }
 .splide__slide img {
-  width: 50%;
+  width: 70%;
   height: auto;
   border-radius: 5px;
   border: solid 1px black;
@@ -19,6 +21,7 @@ button {
   display: flex;
   justify-content: center;
   background-color: var(--secondaryColor);
+  padding: 6%;
 }
 .carousel {
   text-decoration: none;
@@ -28,6 +31,6 @@ button {
   text-align: center;
   list-style-type: none;
 
-  width: 50%;
+  width: 60%;
   height: auto;
 }
