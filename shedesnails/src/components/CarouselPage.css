@@ -8,10 +8,10 @@
 
 button {
   margin: 2%;
-  width: 5vw;
 }
+
 .splide__slide img {
-  width: 70%;
+  width: 50%;
   height: auto;
   border-radius: 5px;
   border: solid 1px black;
@@ -21,7 +21,7 @@ button {
   display: flex;
   justify-content: center;
   background-color: var(--secondaryColor);
-  padding: 6%;
+  padding: 3%;
 }
 .carousel {
   text-decoration: none;
