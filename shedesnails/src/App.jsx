@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar";
 import CarouselPage from "./components/CarouselPage";
 import Bio from "./components/Bio";
+import Details from "./components/Details";
 import "./App.css";
 function App() {
   // const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Bio />
         <CarouselPage />
+        <Details />
       </div>
     </>
   );
