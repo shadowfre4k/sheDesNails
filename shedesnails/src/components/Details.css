@@ -1,0 +1,16 @@
+.detailsContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--fourColor);
+}
+
+.details {
+  /* width: %; */
+  text-align: start;
+}
+
+.map {
+  width: 50%;
+}
